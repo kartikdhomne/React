@@ -5,25 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
+    <!-- <div class="header"><h1>Header</h1></div> -->
     <div id="root">Not Rendered</div>
+    <!-- <div class="footer"><h1>Footer</h1></div> -->
+    <!-- <div id="title">Hello WOrld</div> -->
     <!-- <script type="module" src="App.js"></script> -->
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+    <script type="module" src="App.js"></script>
   </body>
+
   <!-- <script>
-        const heading = document.createElement("h1");
+        const heading = React.createElement("h1", {
+          id: "title"
+        }, "Namaste React");
         heading.innerHTML = "Hey Kartik";
         const data = document.getElementById("root")
         data.appendChild(heading)
+        console.log(heading)
+        const root = ReactDOM.createRoot(document.getElementById("root"))
+    root.render(heading)
     </script> -->
-  <!-- <script
-    crossorigin
-    src="https://unpkg.com/react@18/umd/react.development.js"
-  ></script>
-  <script
-    crossorigin
-    src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
-  ></script> -->
+
   <!-- <script>Not Rendered</script>; -->
   <!-- <script src="App.js"></script> -->
 </html>

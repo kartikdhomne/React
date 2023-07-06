@@ -1,16 +1,16 @@
-import React from "react";
-import ReactDOM from'react-dom/client';
+// import React from "react";
+// import ReactDOM from'react-dom/client';
 
-// **************** In production build PARCEL does below things**********
-// ******** HMR - Hot Module Reloading *******
-// ******** File Watcher Algorithms ********
-// ******** Bundling *******
-// ******** Minify*****
-// ******** Cleaning our Code*******
-// ******** Superfast build algorithms******
-// ********Dev and Production Build*********
-//******Image Optimization*********
-//********Caching while development******/
+// // **************** In production build PARCEL does below things**********
+// // ******** HMR - Hot Module Reloading *******
+// // ******** File Watcher Algorithms ********
+// // ******** Bundling *******
+// // ******** Minify*****
+// // ******** Cleaning our Code*******
+// // ******** Superfast build algorithms******
+// // ********Dev and Production Build*********
+// //******Image Optimization*********
+// //********Caching while development******/
 
 
 const heading1 = React.createElement(
@@ -24,7 +24,7 @@ const heading1 = React.createElement(
 // it is like <h1 id="title">Heading 1</h1> and produce DOM element of this.
 
 const heading2 = React.createElement(
-  "h1",
+  "h2",
   {
     id: "title",
   },
